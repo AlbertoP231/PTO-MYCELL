@@ -100,7 +100,7 @@ const products = [
 
     },
 ];
-Z
+
 app.get('/api/products', (req, res) => {
   res.send(products)
 })
